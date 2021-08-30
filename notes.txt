@@ -1,0 +1,181 @@
+
+function randGenerator(someArray){
+    return someArray[Math.floor(Math.random * someArray.length)]
+}
+
+ //let string = array[Math.floor(Math.random * array.length)];   // Problem with random number generation using array.length //
+
+1_ create options arrays
+
+create a random randGenerator
+
+function  - creates itinerary
+
+fucntion: return Iten results as string 
+
+user interaction (loop)
+    rerandom (switch case)
+    case 20:
+        consolelog itemresults
+        flip status of boolen variable for the while loop
+
+
+
+
+// let randomNum = Math.floor(Math.random() * 5);
+// let des;
+// let rest;
+// let trans;
+// let ent;
+// let yOrN;
+
+// destinationOptions = ["Seattle", "Oregon"]
+// console.log("Generating Trip.....");
+
+// // des = destinationGenerator(randomNum);
+// des = randGenerator(destinationOptions)
+// rest = restaurantGenerator(randomNum);
+// trans = transportationGenerator(randomNum);
+// ent = entertainmentGenerator(randomNum);
+
+// console.log(des + " " + rest + " " + trans + " " + ent);
+
+// yOrN = prompt("Would you like to re-generate a selction? Enter Yes or No");
+
+// while (yOrN == "Yes") {
+
+//     let choice = prompt("Enter 0 for Destination, 1 for Restaurant, 2 for Transportation, and 3 for Entertainment");
+
+//     switch (choice) {
+//         case "0":
+//             randomNum = Math.floor(Math.random() * 5);
+//             des = destinationGenerator(randomNum);
+//             break;
+//         case "1":
+//             randomNum = Math.floor(Math.random() * 5);
+//             rest = restaurantGenerator(randomNum);
+//             break;
+//         case "2":
+//             randomNum = Math.floor(Math.random() * 5);
+//             trans = transportationGenerator(randomNum);
+//             break;
+//         case "3":
+//             randomNum = Math.floor(Math.random() * 5);
+//             ent = entertainmentGenerator(randomNum);
+//             break;
+//         default:
+//             choice = prompt("Invalid choice, try again");
+//             break;
+//     }
+
+//     yOrN = prompt("Would you like to re-generate a selection? Enter Yes or No");
+
+// }
+
+// console.log("Your day trip is as follows: " + des + " " + rest + " " + trans + " " + ent);
+
+
+
+
+
+
+// function destinationGenerator(choice) {
+
+//     let stringDestination;
+
+//     switch (choice) {
+//         case 0:
+//             stringDestination = "Seattle";
+//             break;
+//         case 1:
+//             stringDestination = "New York";
+//             break;
+//         case 2:
+//             stringDestination = "Austin";
+//             break;
+//         case 3:
+//             stringDestination = "Chicago";
+//             break;
+//         case 4:
+//             stringDestination = "Atlanta";
+//             break;
+//     }
+
+//     return stringDestination;
+// }
+
+// function restaurantGenerator(choice) {
+
+//     let stringRestaurant;
+
+//     switch (choice) {
+//         case 0:
+//             stringRestaurant = "Italian";
+//             break;
+//         case 1:
+//             stringRestaurant = "Thai";
+//             break;
+//         case 2:
+//             stringRestaurant = "TexMex";
+//             break;
+//         case 3:
+//             stringRestaurant = "Greek";
+//             break;
+//         case 4:
+//             stringRestaurant = "American";
+//             break;
+//     }
+
+//     return stringRestaurant;
+// }
+
+// function transportationGenerator(choice) {
+
+//     let stringTransportation;
+
+//     switch (choice) {
+//         case 0:
+//             stringTransportation = "Plane";
+//             break;
+//         case 1:
+//             stringTransportation = "Train";
+//             break;
+//         case 2:
+//             stringTransportation = "Vespa";
+//             break;
+//         case 3:
+//             stringTransportation = "Car";
+//             break;
+//         case 4:
+//             stringTransportation = "Bike";
+//             break;
+//     }
+
+//     return stringTransportation;
+// }
+
+// function entertainmentGenerator(choice) {
+
+//     let stringEntertainment;
+
+//     switch (choice) {
+//         case 0:
+//             stringEntertainment = "Concert";
+//             break;
+//         case 1:
+//             stringEntertainment = "Sporting Event";
+//             break;
+//         case 2:
+//             stringEntertainment = "Comedy Show";
+//             break;
+//         case 3:
+//             stringEntertainment = "Musical";
+//             break;
+//         case 4:
+//             stringEntertainment = "Art Exhibit";
+//             break;
+//     }
+
+//     return stringEntertainment;
+
+// }
